@@ -4,7 +4,7 @@
 	<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-		<a class="navbar-brand" href="http://reedsb.com/">
+		<a class="navbar-brand" href="http://reedsb.com/en-us">
 			<img src="./assets/student-body-fulltext.svg" height="80" class="d-inline-block align-middle	" alt="">
 			<!--<span class="align-middle">Student Body</span>-->
 		</a>
@@ -18,7 +18,7 @@
 			</li>
 			-->
 			<li class="nav-item" data-hover-active="true" data-hover-data="defer">
-				<a class="nav-link" href="bylaws.php">Bylaws</a>
+				<a class="nav-link" href="en-us/bylaws.php">Bylaws</a>
 				<div class='hover-fluid-box' data-hover-id={{id}}>
 					<span><b>http://sin.com/bylaws</b></span>
 					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>

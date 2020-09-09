@@ -16,23 +16,23 @@
 				<h5>Things you can do!</h5>
 				<ul class="footer-section list-unstyled text-small">
 					<li class="colored-sin-item" data-hover-active="true" data-hover-data="defer">
-						<a href="run-for-senate.php">Run for Senate!</a>
+						<a href="en-us/run-for-senate.php">Run for Senate!</a>
 						<div class='hover-fluid-box'><h5>http://sin.com/run-for-senate</h5><span>Easier than running outside!</span></div>
 					</li>
 					<li class="colored-sin-item" data-hover-active="true" data-hover-data="defer">
-						<a href="senate-election.php">Senate Elections</a>
+						<a href="en-us/senate-election.php">Senate Elections</a>
 						<div class='hover-fluid-box'><h5>http://sin.com/elections</h5><span>View upcoming, current and previous student body election campaigns</span></div>
 					</li>
 					<li class="colored-sin-item" data-hover-active="true" data-hover-data="defer">
-						<a href="request-funds.php">Request Funds!</a>
+						<a href="en-us/request-funds.php">Request Funds!</a>
 						<div class='hover-fluid-box'><h5>http://sin.com/request-funds</h5><span>Request funds for your event, club, or whatever</span></div>		
 					</li>
 					<li class="colored-sin-item" data-hover-active="true" data-hover-data="defer">
-						<a href="register-club.php">Register Club</a>
+						<a href="en-us/register-club.php">Register Club</a>
 						<div class='hover-fluid-box'><h5>http://sin.com/register-club</h5><span>Start the club of your dreams today</span></div>	
 					</li>
 					<li class="colored-sin-item" data-hover-active="true" data-hover-data="defer">
-						<a href="funding-poll.php">Funding Poll</a>
+						<a href="en-us/funding-poll.php">Funding Poll</a>
 						<div class='hover-fluid-box'><h5>http://sin.com/funding-poll</h5><span>Vote for the clubs of your choice!</span></div>
 					</li>
 					<script>/*

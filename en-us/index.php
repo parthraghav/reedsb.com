@@ -47,7 +47,7 @@
 				<h1 class="display-4"><span>Vote for your favorite clubs!</span></h1>
 				<p class="lead">Funding Poll is live. Vote for your favorite clubs. The more votes they get, the more chance they will have at reaching their funding goal.</p>
 				<hr class="my-4">
-				<a class="btn btn-dark btn-lg" href="/funding-poll" role="button">Vote</a>
+				<a class="btn btn-dark btn-lg" href="en-us/funding-poll.php" role="button">Vote</a>
 			</div>
 
 		</div>
