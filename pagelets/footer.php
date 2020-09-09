@@ -65,8 +65,6 @@
 				<h5>About</h5>
 				<ul class="footer-section list-unstyled text-small">
 					<li class="colored-sin-item"><a href="team.php">Team</a></li>
-					<!--<li class="colored-sin-item"><a href="#">Commons Hours</a></li>
-					<li class="colored-sin-item"><a href="#">Office Hours</a></li>-->
 					<li class="colored-sin-item"><a href="https://www.reed.edu/honor_principle/">Honor Principle</a></li>
 					<li class="colored-sin-item"><a href="https://www.reed.edu/cis/policies/copyright_guide.html">Licenses/Attributions</a></li>
 					<li class="colored-sin-item"><a href="https://www.reed.edu/policies/data-privacy.html">Privacy Policy</a></li>
