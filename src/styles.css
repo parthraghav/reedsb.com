@@ -1,34 +1,29 @@
+@import "styles/markup.css";
+@import "styles/overrides.css";
+@import "styles/cursor.css";
+@import "styles/hover-fluid.css";
+@import "styles/classes.css";
 
-@import "markup.css";
-@import "overrides.css";
-@import "cursor.css";
-@import "hover-fluid.css";
-@import "classes.css";
-
-html, body {
-
-    font-family: proxima-nova, sans-serif !important;
-    font-size: 1.2em;
-    background: #eceff1;
-
+html,
+body {
+  font-family: proxima-nova, sans-serif !important;
+  font-size: 1.2em;
+  background: #eceff1;
 }
 
 body.sin-app-mod {
-    background: #ffffff !important;	
+  background: #ffffff !important;
 }
 
-
 .disabled {
-	color: rgba(0,0,0,.3) !important; 
+  color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .disabled:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 ::selection {
-
-    outline: none!important;
-    background: #fce373!important;
-
+  outline: none !important;
+  background: #fce373 !important;
 }
