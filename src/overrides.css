@@ -1,0 +1,17 @@
+
+
+.navbar-toggler:focus {
+	outline: 0;
+}
+
+.navbar-toggler {
+	border-color: transparent !important;
+}
+
+#highlights .jumbotron {
+	background: linear-gradient(153deg, #fb8332 0%, #f8c332 95%), url(https://www.worldvision.org/wp-content/uploads/2017/02/confetti-background-png8-2440x2440.png) repeat;
+    background-blend-mode: hard-light;
+    background-size: contain;
+    color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}

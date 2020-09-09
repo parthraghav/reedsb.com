@@ -1,0 +1,285 @@
+
+/* Propeller typography */
+@import "http://propeller.in/components/typography/css/typography.css";
+
+/* Propeller buttons */
+@import "http://propeller.in/components/button/css/button.css";
+
+/* Propeller card css */
+@import "http://propeller.in/components/card/css/card.css";
+
+html, body {
+	height: 100%;
+    font-family: proxima-nova, sans-serif !important;
+    overflow-x: hidden;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    /*background: #eceff1 !important;*/
+}
+#intro-screen {
+	text-align: center;
+}
+
+.vt-text {
+	max-width: 500px;
+	margin: 0px auto;
+    -webkit-font-smoothing: antialiased;
+}
+.pt-text {
+	max-width: 800px;
+	margin: 0px auto;
+    -webkit-font-smoothing: antialiased;	
+    font-weight: 600 !important;
+}
+.lt-text {
+	line-height: 1.3em;
+    font-size: 1.3em;
+}
+.lt-cont {
+	text-align: left;
+}
+#intro-screen .jumbotron {
+	background-color: white !important;
+}
+.jumbotron.jumbotron-alert {
+	background-color: #ffc108 !important;
+}
+
+/* Wrapper with padding */
+.wrap  {
+    height: 300px;
+    padding: 5%;
+}
+
+.fp-dp {
+	max-width: 100px;
+}
+
+.fp-thumbnail{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+.panel-title-bar > img, .panel-title-bar > div {
+	display: inline-block;
+}
+.panel-title-bar > img {
+	margin-right: 25px;
+}
+.pmd-card-figure {
+	flex-basis: 360px;
+}
+.pmd-card {
+  border-radius: 20px !important;
+}
+.fp-item {
+}
+.pmd-card-figure .pmd-card-media>img {
+	width: 100%;
+}
+.pmd-card-title > *, .pmd-card-title h2 {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+.pmd-card-actions>button, .pmd-card-actions i {
+	font-size: 20px !important;
+}
+#intro-screen {
+	background: white !important;
+}
+#preloader-screen {
+	background: white !important;
+}
+#voting-screen {
+	background: #4285f4;
+	padding: 1em;
+  padding-bottom: 6em;
+}
+
+/* preloader */
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid black;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: black transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.pmd-card-body {
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+.card-danger, .card-danger > .pmd-card, .card-danger .pmd-card-body  {
+  /*background: linear-gradient(314deg, #ff8823, #a30000);
+  background-size: 400% 400%;
+  -webkit-animation: DangerCardGradient 0s ease infinite;
+  -moz-animation: DangerCardGradient 0s ease infinite;
+  animation: DangerCardGradient 0s ease infinite;*/
+	background: #ff5722 !important;
+	color: white;
+}
+.card-success, .card-success > .pmd-card, .card-success .pmd-card-body  {
+  /*background: linear-gradient(270deg, #00ede8, #45fc6b);
+  background-size: 400% 400%;
+  -webkit-animation: SuccessCardGradient 0s ease infinite;
+  -moz-animation: SuccessCardGradient 0s ease infinite;
+  animation: SuccessCardGradient 0s ease infinite;*/
+	background: #259b24 !important;
+	color: white;
+}
+.card-warning, .card-warning > .pmd-card, .card-warning .pmd-card-body {
+  /*background: linear-gradient(270deg, #ffc108, #fc45bc);
+  background-size: 400% 400%;
+  -webkit-animation: WarningCardGradient 0s ease infinite;
+  -moz-animation: WarningCardGradient 0s ease infinite;
+  animation: WarningCardGradient 0s ease infinite;*/
+	background: #ffc108 !important;
+	color: black;
+
+}
+/*
+@-webkit-keyframes DangerCardGradient {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-moz-keyframes DangerCardGradient {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@keyframes DangerCardGradient {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+
+@-webkit-keyframes SuccessCardGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes SuccessCardGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes SuccessCardGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-webkit-keyframes WarningCardGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes WarningCardGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes WarningCardGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+*/
+.sin-fp-voter-footer {
+    background: #FAFAFA;
+    border-top: 0.5em solid #EEEEEE;
+}
+.sin-fp-voter-footer * {
+  font-size: 1.1em;
+}
+.modal-fp-style {
+    background: #FFC107;
+    border: 0.2em solid black;
+}
+.modal-fp-style .modal-footer {
+    border-top: 0 !important;
+}
+.modal-fp-style .btn, .modal-fp-style .modal-body, .modal-fp-style .modal-title {
+    font-size: 1.2em;
+}
+.modal-fp-style .btn {
+    color: #333;
+    background-color: #e0a800;
+}
+.modal-dialog {
+  /*
+  top: calc(100% - 300px); 
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  */
+  /*
+   position:fixed;
+   top:auto;
+   right:auto;
+   width:100%;
+   left:auto;
+   bottom:0;
+   */
+}  
+.sin-fp-submit-button-container {
+  display:flex;
+  align-items:center; /* vertically aligned! */
+  justify-content: center;
+}
+.sin-fp-submit-button-container .btn {
+    flex-basis: 100%;
+}
+.jumbotron-results {
+    background: #fafafa !important;
+    overflow-x: scroll;
+}
+.jumbotron-alert {
+    margin-bottom: 2em !important;
+}
+rect.bar {
+    fill: #009688;
+    stroke: #607D8B;
+}
+
+.axis {
+    font-size: 13px;
+}
+rect.top40, rect.top30 {
+    fill: #673ab7;
+}

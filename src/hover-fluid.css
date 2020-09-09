@@ -1,0 +1,30 @@
+
+.hover-fluid-box {
+	display: none;
+	position: absolute;
+	max-width: 300px;
+	padding: 1rem;
+	text-align: left !important;
+	z-index: 10000000000000 !important;
+}
+
+.hover-fluid-box h5 {
+	display: inline-block;
+	font-weight: bolder;
+}
+
+.hover-fluid-box h5, .hover-fluid-box h6 {
+	margin-bottom: 0px;
+}
+
+.hover-fluid-box span:first-of-type {
+	font-style: italic;
+}
+
+.hover-fluid-box span:nth-of-type(2) {
+	display: block;
+}
+
+.hover-fluid-box span:nth-of-type(3) {
+	font-size: 0.9em;
+}

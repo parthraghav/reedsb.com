@@ -1,0 +1,51 @@
+
+.sin-app section {
+	padding: 150px 0;
+}
+
+.sin-app section p {
+	font-size: 1.2rem;
+}
+
+.sin-app .header {
+	border-bottom: 10px solid #eceff1;
+}
+
+.sin-app footer {
+	background: #ECEFF1;
+	/*border-top: 10px solid #f8f9fa;*/
+	border-top: 10px solid #eceff1;
+}
+
+.sin-app footer a {
+	color: #333333;
+}
+
+.sin-app footer h5 {
+	font-weight: 700;
+}
+
+.sin-app footer ul.footer-section li {
+	border-left: 8px solid;
+    padding-left: 16px;
+}
+
+.sin-app footer ul.footer-section li:hover {
+	border-color: #000000 !important;
+}
+
+.sin-app footer ul.footer-section li a:hover {
+	text-decoration: none;
+}
+
+
+.sin-app footer .sin-app-logo {
+	display: block;
+	height: auto;
+    max-height: 4em;
+    margin: 25px auto 0px auto;
+}
+
+.sin-app-credit {
+	font-size: 0.8em;
+}
