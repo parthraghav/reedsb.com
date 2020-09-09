@@ -1,7 +1,11 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !screens/
+RewriteRule (.*) /screens/$1 [L]
+
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
-
-RewriteEngine On
 
 # browser requests PHP
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
