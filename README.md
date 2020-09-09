@@ -1,3 +1,5 @@
+<img src="assets/student-body-fulltext.svg" height="100">
+
 # reedsb.com
 Webstack for the Reed Student Body.
 ## Included Functionality
