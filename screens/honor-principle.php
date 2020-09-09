@@ -41,7 +41,7 @@
 
 <body class="sin-app sin-app-mod">
 
-	<?php include './pagelets/header.php'; ?>
+	<?php include '../pagelets/header.php'; ?>
 
 <section id="honor-principle">
 	<div class="container">
@@ -212,7 +212,7 @@
 	</div>
 </section>
 
-	<?php include './pagelets/footer.php'; ?>
+	<?php include '../pagelets/footer.php'; ?>
 
 </body>
 

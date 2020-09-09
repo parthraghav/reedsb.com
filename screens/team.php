@@ -36,7 +36,7 @@
 
 <body class="sin-app">
 
-	<?php include './pagelets/header.php'; ?>
+	<?php include '../pagelets/header.php'; ?>
 
 <section id="team">
 	<div class="container">
@@ -93,7 +93,7 @@
 </div>
 
 
-	<?php include './pagelets/footer.php'; ?>
+	<?php include '../pagelets/footer.php'; ?>
 
 </body>
 

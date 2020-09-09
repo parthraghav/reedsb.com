@@ -33,7 +33,7 @@
 
 <body class="sin-app">
 
-	<?php include './pagelets/header.php'; ?>
+	<?php include '../pagelets/header.php'; ?>
 
 <!--This is the Highlights Section-->
 <section id="highlights">
@@ -88,7 +88,7 @@
 	
 </section>
 
-	<?php include './pagelets/footer.php'; ?>
+	<?php include '../pagelets/footer.php'; ?>
 
 </body>
 

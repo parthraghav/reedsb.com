@@ -24,7 +24,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
    </head>
    <body class="sin-app">
-      <?php include './pagelets/header.php'; ?>
+      <?php include '../pagelets/header.php'; ?>
       <section id="bylaws">
          <div class="container">
             <div class="row">
@@ -287,6 +287,6 @@
             </div>
          </div>
       </section>
-      <?php include './pagelets/footer.php'; ?>
+      <?php include '../pagelets/footer.php'; ?>
    </body>
 </html>

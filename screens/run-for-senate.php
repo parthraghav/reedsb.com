@@ -50,7 +50,7 @@
 
 <body class="sin-app">
 
-	<?php include './pagelets/header.php'; ?>
+	<?php include '../pagelets/header.php'; ?>
 
 <section id="run-for-senate">
 	<div class="container">
@@ -323,7 +323,7 @@
 
 -->
 
-	<?php include './pagelets/footer.php'; ?>
+	<?php include '../pagelets/footer.php'; ?>
 
 </body>
 

@@ -41,7 +41,7 @@
 
 <body class="sin-app">
 
-	<?php include './pagelets/header.php'; ?>
+	<?php include '../pagelets/header.php'; ?>
 
 <section id="dash-door">
 	<div class="container">
@@ -212,7 +212,7 @@
 	</div>
 </section>
 
-	<?php include './pagelets/footer.php'; ?>
+	<?php include '../pagelets/footer.php'; ?>
 
 </body>
 
