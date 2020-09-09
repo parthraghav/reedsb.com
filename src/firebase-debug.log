@@ -1,0 +1,34 @@
+[debug] [2019-07-05T13:23:45.789Z] ----------------------------------------------------------------------
+[debug] [2019-07-05T13:23:45.791Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2019-07-05T13:23:45.791Z] CLI Version:   7.0.2
+[debug] [2019-07-05T13:23:45.791Z] Platform:      darwin
+[debug] [2019-07-05T13:23:45.791Z] Node Version:  v10.15.3
+[debug] [2019-07-05T13:23:45.792Z] Time:          Fri Jul 05 2019 18:53:45 GMT+0530 (India Standard Time)
+[debug] [2019-07-05T13:23:45.792Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-05T13:23:45.799Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-05T13:23:45.799Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Applications/MAMP/htdocs/sin/web/src
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[debug] [2019-07-16T15:38:49.332Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:66:28)
+    at Interface._setRawMode (readline.js:251:16)
+    at Interface.close (readline.js:376:10)
+    at ReadStream.ontermend (readline.js:164:10)
+    at ReadStream.emit (events.js:194:15)
+    at ReadStream.EventEmitter.emit (domain.js:441:20)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
