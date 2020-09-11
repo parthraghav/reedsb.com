@@ -2,7 +2,7 @@ SRC_PATH=src/app.js
 BUILD_PATH=src/app.min.js
 TMP_BUILD_PATH=src/_app.min.js
 ERR_LOG_PATH=error_log
-MINIFIER_URL=https://javascript-minifier.com/rw
+MINIFIER_URL=https://javascript-minifier.com/raw
 BUILD_HEADER="/* Author: Parth Raghav <raghavp@reed.edu> */\n// File: app.min.js\n"
 
 CURL_RETURN_CODE=0
