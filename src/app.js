@@ -409,7 +409,7 @@
     campaign_min_length: 25,
     secampaign: "se-spring-2020-0Zxbu2VnDYrzxt1GWZsw",
     prev_campaigns: ["se-fall-2019-COrYlp5YXN5ZvUuzpsJq"],
-    poll_id: "88f1798e205c841fe851b42095329f84",
+    poll_id: "1cW4NmL7sfo0rOqAK5ro",
     senate_dat_file: "",
     prev_senate_dat_files: ["fall-2019-senate-members"],
     prev_polls: ["fp-fall-2019-UPWlKMYkvCd2fuXY6Rce","fp-spring-2020-1cW4NmL7sfo0rOqAK5ro"],
