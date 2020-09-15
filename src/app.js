@@ -425,8 +425,7 @@
       "taqia@reed.edu",
       "mangiap@reed.edu",
       "enahashim@reed.edu",
-      "anachebk@reed.edu",
-    ],
+      "anachebk@reed.edu"],
     direct_server_load: false,
     bypass_full_id_app: true,
   };
