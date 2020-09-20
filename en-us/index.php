@@ -27,7 +27,7 @@
 	<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-firestore.js"></script>
 
-	<script type="text/javascript" src="./src/app.min.js?p=refresh&t=1"></script>	
+	<script type="text/javascript" src="./src/app.min.js?p=refresh&t=1"></script>
 
 </head>
 
@@ -40,25 +40,25 @@
 
 
 	<div class="container">
-		
+
 		<div class="row">
-			
+
 			<div class="jumbotron">
-				<h1 class="display-4"><span>Vote for your favorite clubs!</span></h1>
-				<p class="lead">Funding Poll is live. Vote for your favorite clubs. The more votes they get, the more chance they will have at reaching their funding goal.</p>
+				<h1 class="display-4"><span>Title</span></h1>
+				<p class="lead">Body.</p>
 				<hr class="my-4">
-				<a class="btn btn-dark btn-lg" href="en-us/funding-poll.php" role="button">Vote</a>
+				<a class="btn btn-dark btn-lg" href="en-us/funding-poll.php" role="button">Button</a>
 			</div>
 
 		</div>
 
 	</div>
-	
+
 
 	<div class="container" style="display:none">
-		
+
 		<div class="row">
-			
+
 			<div class="jumbotron">
 				<h1 class="display-4"><span>Register your club!</span></h1>
 				<p class="lead">It's the club season. Funding poll is nearing and this is your time to register your club for funding poll or Identity funding!</p>
@@ -69,12 +69,12 @@
 		</div>
 
 	</div>
-	
+
 
 	<div class="container" style="display:none">
-		
+
 		<div class="row">
-			
+
 			<div class="jumbotron">
 				<h1 class="display-4"><span>Run for senate!</span></h1>
 				<p class="lead">Be a part of the Reed student governance. Do you have a thing you want to change about Reed? Be the change you want to see!</p>
@@ -85,7 +85,7 @@
 		</div>
 
 	</div>
-	
+
 </section>
 
 	<?php include '../pagelets/footer.php'; ?>
@@ -93,11 +93,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
