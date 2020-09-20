@@ -409,12 +409,12 @@
     campaign_min_length: 25,
     secampaign: "se-spring-2020-0Zxbu2VnDYrzxt1GWZsw",
     prev_campaigns: ["se-fall-2019-COrYlp5YXN5ZvUuzpsJq"],
-    poll_id: "1cW4NmL7sfo0rOqAK5ro",
+    poll_id: "2dW4NmL7sfo0rOqAK5ro",
     senate_dat_file: "",
     prev_senate_dat_files: ["fall-2019-senate-members"],
-    prev_polls: ["fp-fall-2019-UPWlKMYkvCd2fuXY6Rce"],
+    prev_polls: ["fp-fall-2019-UPWlKMYkvCd2fuXY6Rce","fp-spring-2020-1cW4NmL7sfo0rOqAK5ro"],
     poll_name: "fp-spring-2020",
-    semester: "spring-2020",
+    semester: "test-2020",
     max_boosts: 6,
     vote_submission_threshold: 0.01,
     authorised_users: [
@@ -453,7 +453,7 @@
 
       // make auth and firestore references
       this.auth = fb.auth();
-      this.db = fb.firestore();
+      //this.db = fb.firestore();
       this.view = this.get_view();
       this.mobile = Util.is_mobile();
 
