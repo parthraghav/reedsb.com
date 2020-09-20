@@ -453,7 +453,7 @@
 
       // make auth and firestore references
       this.auth = fb.auth();
-      //this.db = fb.firestore();
+      this.db = fb.firestore();
       this.view = this.get_view();
       this.mobile = Util.is_mobile();
 
