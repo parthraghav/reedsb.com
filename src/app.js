@@ -401,15 +401,15 @@
     rcends: new Date("Feb 1 2020 23:59:59").getTime(), // club registeration deadline
     rfsopens: new Date("Jun 1 2020 23:59:59").getTime(), // senate nomination opens
     rfsends: new Date("Jul 1 2020 23:59:59").getTime(), // senate nomination deadline
-    fpopens: new Date("Sep 11 2021 23:59:59").getTime(), // funding poll begindate
-    fpends: new Date("Sep 12 2021 23:59:59").getTime(), // funding poll closedate, // new Date("Sep 12, 2019 23:59:59").getTime()
+    fpopens: new Date("Oct 11 2020 23:59:59").getTime(), // funding poll begindate
+    fpends: new Date("Oct 12 2020 23:59:59").getTime(), // funding poll closedate, // new Date("Sep 12, 2019 23:59:59").getTime()
     seopens: new Date("July 1 2020 23:59:59").getTime(), // senate election begindate
     seends: new Date("Aug 1 2020 23:59:59").getTime(), // senate election closedate
     campaign_max_length: 250,
     campaign_min_length: 25,
     secampaign: "se-spring-2020-0Zxbu2VnDYrzxt1GWZsw",
     prev_campaigns: ["se-fall-2019-COrYlp5YXN5ZvUuzpsJq"],
-    poll_id: "1cW4NmL7sfo1rOqAK5ro",
+    poll_id: "26A23AFD3BE95C37377A28BEA9D54B0B7BEE0ED0",
     senate_dat_file: "",
     prev_senate_dat_files: ["fall-2019-senate-members"],
     prev_polls: ["fp-fall-2019-UPWlKMYkvCd2fuXY6Rce","fp-spring-2020-1cW4NmL7sfo0rOqAK5ro"],
