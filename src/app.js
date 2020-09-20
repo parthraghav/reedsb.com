@@ -413,7 +413,7 @@
     senate_dat_file: "",
     prev_senate_dat_files: ["fall-2019-senate-members"],
     prev_polls: ["fall-2019-UPWlKMYkvCd2fuXY6Rce","fp-spring-2020-1cW4NmL7sfo0rOqAK5ro"],
-    poll_name: "fp-test-2020",
+    poll_name: "fp-test-2020-2dW4NmL7sfo0rOqAK5ro",
     semester: "test-2020",
     max_boosts: 6,
     vote_submission_threshold: 0.01,
@@ -1092,7 +1092,7 @@
         .collection("registered_clubs")
         .get()
         .then(function (querySnapshot) {
-          querySnapshot.forEach(function (doc) {
+          querySnapshot.forEach(function(doc) {
             organisations.push(doc.data());
             organisations[organisations.length - 1].Private_doc_id = doc.id;
           });
