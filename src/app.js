@@ -1783,7 +1783,7 @@
         return inner_table;
       }
 
-      if (window.localStorage.cached2 == "truee") {
+      if (window.localStorage.cached2 == "true") {
         table = return_clubs_data_table(
           JSON.parse(window.localStorage.getItem("fb_data"))
         );
