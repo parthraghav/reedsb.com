@@ -412,7 +412,7 @@
     poll_id: "2dW4NmL7sfo0rOqAK5ro",
     senate_dat_file: "",
     prev_senate_dat_files: ["fall-2019-senate-members"],
-    prev_polls: ["fp-fall-2019-UPWlKMYkvCd2fuXY6Rce","fp-spring-2020-1cW4NmL7sfo0rOqAK5ro"],
+    prev_polls: ["fall-2019-UPWlKMYkvCd2fuXY6Rce","fp-spring-2020-1cW4NmL7sfo0rOqAK5ro"],
     poll_name: "fp-test-2020",
     semester: "test-2020",
     max_boosts: 6,
