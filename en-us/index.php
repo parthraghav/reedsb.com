@@ -44,10 +44,10 @@
 		<div class="row">
 
 			<div class="jumbotron">
-				<h1 class="display-4"><span>Title</span></h1>
-				<p class="lead">Body.</p>
+				<h1 class="display-4"><span>.</span></h1>
+				<p class="lead">.</p>
 				<hr class="my-4">
-				<a class="btn btn-dark btn-lg" href="en-us/funding-poll.php" role="button">Button</a>
+				<a class="btn btn-dark btn-lg" href="en-us/funding-poll.php" role="button">.</a>
 			</div>
 
 		</div>
