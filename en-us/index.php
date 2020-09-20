@@ -44,10 +44,10 @@
 		<div class="row">
 
 			<div class="jumbotron">
-				<h1 class="display-4"><span>.</span></h1>
-				<p class="lead">.</p>
+				<h1 class="display-4"><span>Please refer to the SB Info e-mail for the Funding Poll form.</span></h1>
+				<p class="lead">Funding poll will NOT be recorded on reedsb.com for Fall 2020. </p>
 				<hr class="my-4">
-				<a class="btn btn-dark btn-lg" href="en-us/funding-poll.php" role="button">.</a>
+				<a class="btn btn-dark btn-lg" href="en-us/funding-poll.php" role="button"></a>
 			</div>
 
 		</div>

@@ -402,7 +402,7 @@
     rfsopens: new Date("Jun 1 2020 23:59:59").getTime(), // senate nomination opens
     rfsends: new Date("Jul 1 2020 23:59:59").getTime(), // senate nomination deadline
     fpopens: new Date("Sep 11 2020 23:59:59").getTime(), // funding poll begindate
-    fpends: new Date("Sep 21 2020 23:59:59").getTime(), // funding poll closedate, // new Date("Sep 12, 2019 23:59:59").getTime()
+    fpends: new Date("Sep 19 2020 23:59:59").getTime(), // funding poll closedate, // new Date("Sep 12, 2019 23:59:59").getTime()
     seopens: new Date("July 1 2020 23:59:59").getTime(), // senate election begindate
     seends: new Date("Aug 1 2020 23:59:59").getTime(), // senate election closedate
     campaign_max_length: 250,
