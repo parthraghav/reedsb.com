@@ -402,7 +402,7 @@
     rfsopens: new Date("Jun 1 2020 23:59:59").getTime(), // senate nomination opens
     rfsends: new Date("Jul 1 2020 23:59:59").getTime(), // senate nomination deadline
     fpopens: new Date("Oct 11 2020 23:59:59").getTime(), // funding poll begindate
-    fpends: new Date("Oct 19 2020 23:59:59").getTime(), // funding poll closedate, // new Date("Sep 12, 2019 23:59:59").getTime()
+    fpends: new Date("Oct 21 2020 23:59:59").getTime(), // funding poll closedate, // new Date("Sep 12, 2019 23:59:59").getTime()
     seopens: new Date("July 1 2020 23:59:59").getTime(), // senate election begindate
     seends: new Date("Aug 1 2020 23:59:59").getTime(), // senate election closedate
     campaign_max_length: 250,
@@ -413,7 +413,7 @@
     senate_dat_file: "",
     prev_senate_dat_files: ["fall-2019-senate-members"],
     prev_polls: ["fall-2019-UPWlKMYkvCd2fuXY6Rce","fp-spring-2020-1cW4NmL7sfo0rOqAK5ro"],
-    poll_name: "fp-test-2020",
+    poll_name: "fp-test-2020-2dW4NmL7sfo0rOqAK5ro",
     semester: "test-2020",
     max_boosts: 6,
     vote_submission_threshold: 0.01,
