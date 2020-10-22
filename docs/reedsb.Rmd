@@ -84,7 +84,7 @@ The relation between these collections and events is given by: ${event} \leftarr
 ### Event and collections pairs
 
 a. Funding Poll $\leftarrow$ $\{$users_who_have_voted, registered_clubs$\}$
-b. Elections $\leftarrow$ $\{$users_who_have_voted, nominations$\}$
+b. Elections $\leftarrow$ $\{$users_who_have_voted, nominations, elections$\}$
 
 Different utilities/classes on the website utilize different subsets of these collections. The utility-collection subsets pairs are given below. We say that a utility $\textbf{talks}$ with a subset of database collections if the website codebase is programmed to have a read-write relationship between that utility and the collections in that subset.  
 
@@ -141,5 +141,5 @@ $$\textit{fp-[semester]-SHA32id}$$
 
 1. Edit the time parameters $\textit{seopens}$ and $\textit{secloses}$ in the $.CONFIG$ to ensure that the SB elections is open and closed at the right times. These parameters are determined by the Senate.
 
-2. Change the $\textit{secampaign}$ entry in the $.CONFIG$ file to reflect the current funding poll ID. Recall that it must follow the form:
+2. Change the $\textit{secampaign}$ entry in the $.CONFIG$ file to reflect the current senate election ID. Recall that it must follow the form:
 $$\textit{se-[semester]-SHA32id}$$
