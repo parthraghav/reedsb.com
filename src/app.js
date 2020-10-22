@@ -404,12 +404,12 @@
     fpopens: new Date("Oct 11 2020 23:59:59").getTime(), // funding poll begindate
     fpends: new Date("Oct 20 2020 23:59:59").getTime(), // funding poll closedate, // new Date("Sep 12, 2019 23:59:59").getTime()
     seopens: new Date("Oct 21 2020 19:47:59").getTime(), // senate election begindate
-    seends: new Date("Oct 21 2020 21:47:59").getTime(), // senate election closedate
+    seends: new Date("Oct 22 2020 21:47:59").getTime(), // senate election closedate
     campaign_max_length: 250,
     campaign_min_length: 25,
     secampaign: "se-test-2020-1Axbu2VnDYrzxt1GWZsw",
     prev_campaigns: ["se-fall-2019-COrYlp5YXN5ZvUuzpsJq"],
-    poll_id: "2dW4NmL7sfo0rOqAK5ro",
+    poll_id: "1Axbu2VnDYrzxt1GWZsw",
     senate_dat_file: "",
     prev_senate_dat_files: ["fall-2019-senate-members"],
     prev_polls: ["fall-2019-UPWlKMYkvCd2fuXY6Rce","fp-spring-2020-1cW4NmL7sfo0rOqAK5ro"],
@@ -426,7 +426,7 @@
       "mangiap@reed.edu",
       "enahashim@reed.edu",
       "anachebk@reed.edu"],
-    direct_server_load: false,
+    direct_server_load: true,
     bypass_full_id_app: true,
   };
 
