@@ -403,12 +403,12 @@
     rfsends: new Date("Jul 1 2020 23:59:59").getTime(), // senate nomination deadline
     fpopens: new Date("Oct 11 2020 23:59:59").getTime(), // funding poll begindate
     fpends: new Date("Oct 21 2020 23:59:59").getTime(), // funding poll closedate, // new Date("Sep 12, 2019 23:59:59").getTime()
-    seopens: new Date("July 1 2020 23:59:59").getTime(), // senate election begindate
-    seends: new Date("Aug 1 2020 23:59:59").getTime(), // senate election closedate
+    seopens: new Date("Oct 21 2020 19:47:59").getTime(), // senate election begindate
+    seends: new Date("Oct 21 2020 21:47:59").getTime(), // senate election closedate
     campaign_max_length: 250,
     campaign_min_length: 25,
-    secampaign: "se-spring-2020-0Zxbu2VnDYrzxt1GWZsw",
-    prev_campaigns: ["se-fall-2019-COrYlp5YXN5ZvUuzpsJq"],
+    secampaign: "se-test-2020-1Axbu2VnDYrzxt1GWZsw",
+    prev_campaigns: ["se-fall-2019-COrYlp5YXN5ZvUuzpsJq","se-spring-2020-0Zxbu2VnDYrzxt1GWZsw"],
     poll_id: "2dW4NmL7sfo0rOqAK5ro",
     senate_dat_file: "",
     prev_senate_dat_files: ["fall-2019-senate-members"],
