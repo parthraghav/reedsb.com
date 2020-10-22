@@ -2164,7 +2164,7 @@
       this.db
         .collection("users_who_have_voted")
         .doc(CONFIG.secampaign)
-        .where("Email", "==", this.auth.currentUser.email)
+        //.where("Email", "==", this.auth.currentUser.email)
         .get()
         .then(function (querySnapshot) {
           if (querySnapshot.size == 0) {
