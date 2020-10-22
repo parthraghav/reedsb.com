@@ -408,7 +408,7 @@
     campaign_max_length: 250,
     campaign_min_length: 25,
     secampaign: "se-test-2020-1Axbu2VnDYrzxt1GWZsw",
-    prev_campaigns: ["se-fall-2019-COrYlp5YXN5ZvUuzpsJq","se-spring-2020-0Zxbu2VnDYrzxt1GWZsw"],
+    prev_campaigns: ["se-fall-2019-COrYlp5YXN5ZvUuzpsJq"],
     poll_id: "2dW4NmL7sfo0rOqAK5ro",
     senate_dat_file: "",
     prev_senate_dat_files: ["fall-2019-senate-members"],
