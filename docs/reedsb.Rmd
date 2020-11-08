@@ -77,11 +77,9 @@ For continuity, please ensure every event-indexed collection has subcollection n
 
 \newpage
 
-## Interrelational Breakdowns
+## Event and collections relations
 
 The relation between these collections and events is given by: ${event} \leftarrow \{collections\}$. 
-
-### Event and collections pairs
 
 a. Funding Poll $\leftarrow$ $\{$users_who_have_voted, registered_clubs$\}$
 b. Elections $\leftarrow$ $\{$users_who_have_voted, nominations, elections$\}$
