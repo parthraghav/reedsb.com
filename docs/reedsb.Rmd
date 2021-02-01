@@ -4,7 +4,14 @@ output: pdf_document
 header-includes:
   - \newcommand{\note}{\textbf{Note:}}
   - \newcommand{\example}{\textbf{Example:}}
+  - \newcommand{\config}{const \textit{ CONFIG}}
 ---
+
+# Tools Used
+
+1. GoDaddy (Ask Reed Treasury for login details)
+2. Firebase 
+3. Github
 
 Here is a table of contents for the manual, along with a short description of each section.
 
@@ -111,11 +118,22 @@ d. elections: view current campaign data (read)
 
 \newpage
 
-# Maintainence and Event Running
+# Maintainence and Event Running Routines
 
-## Semester Changes
+## Updating the Website (R1)
 
-Before every semester begins, change the $.CONFIG$ file to reflect the current semester. Then, ensure every semester dependent collection has a collection pertaining to the new semester. Note that $\textbf{this must be done manually}$ by the Webmaster(s). Recall that the semester name must follow the form:
+Updating the website may be tricky at first but it should be easy once the Webmaster does a few practice tries. The standard routine of updating the website should $\textbf{NOT}$ involve directly editing the files on cPanel. Doing so will create some large issues with Github version control in the future. Instead, please use Git or install Github Desktop (more user-friendly) and have a local copy of the website directory installed. Then, the Webmaster may edit the repository and propogate the changes through Github. 
+
+Suppose the Webmaster implements changes to a local copy of the website on their device. Once the changes are done, the Webmaster should build the $\textit{app.min.js}$ script if $\textit{app.js}$ is edited. Otherwise, push the changes onto the Github Repository. Then, log on to the GoDaddy website, and find the cPanel Adminstrator Panel. Then, go to 'Github Version Control' $\rightarrow$ 'Manage' $\rightarrow$ 'Pull and Deploy'. Pressing 'Update from Remote' should update the website.
+
+## Subroutine: Building the Script
+
+To build the $\textit{app.min.js}$ script, proceed to the directory containing $\textit{build.sh}$. On terminal, execute the script by writing:
+$$\textit{bash build.sh}$$
+
+## Semester Changes (R2)
+
+Before every semester begins, change the $\config$ expression in $\textit{app.js}$ to reflect the current semester. Then, ensure every semester dependent collection has a collection pertaining to the new semester. Note that $\textbf{this must be done manually}$ by the Webmaster(s). Recall that the semester name must follow the form:
 $$[semester] = \textit{term-year}$$
 
 For reference, these are the semester dependent collections:
@@ -126,18 +144,35 @@ a. signatories
 b. registered_clubs
 c. fund_requests
 
+## Detailed Instructions
+
+Here are more direct instructions for the semester change routine. The process should be clearer once the Webmaster explores the collections of previous semesters. Implementation of the new semesters should not be any different. 
+
+1. In $\textit{app.js}$, the main code file, find the $\config$ expression and rename the semester to the current $[semester]$ string.
+2. In Firebase, go to each semester-dependent collection and add a new collection for that semester using the exact same $[semester]$ string.
+3. Then, within each collection, create an $\textbf{empty}$ array with the same name as that master collection. For example, if you are updating $signatories$, you will create a new empty $signatories$ array in the new semester collection. 
+4. Update the website as in Routine 1 (R1).
+
+## Dashdoor Permissions
+
+Every semester, Reed Treasury rotates and adds new members. These new members will ask for permission to Dashdoor, the adminstrative backdoor of the website. To give those users permission, you must edit the $\config$ and add the relevant emails to the 'authorised_users' array. Then, remember to build the script and update the website as in Routine 1.
+
+\newpage
+
+$\note$ The funding poll and student body elections applets do not seem to be functional as of Fall 2020. Also worth noting is that the parameter $direct_server_load$ in the $\config$ file seems to crash the website when set to $false$.
+
 ## Running Funding Poll
 
 Some manual steps are necessary to run a funding poll event. 
 
-1. Edit the time parameters $\textit{fpopens}$ and $\textit{fpcloses}$ in the $.CONFIG$ to ensure funding poll is open and closed at the right times. These parameters are determined by the Treasury.
+1. Edit the time parameters $\textit{fpopens}$ and $\textit{fpcloses}$ in the $\config$ to ensure funding poll is open and closed at the right times. These parameters are determined by the Treasury.
 
-2. Change the $\textit{poll-name}$ entry in the $.CONFIG$ file to reflect the current funding poll ID. Recall that it must follow the form:
+2. Change the $\textit{poll-name}$ entry in the $\config$ file to reflect the current funding poll ID. Recall that it must follow the form:
 $$\textit{fp-[semester]-SHA32id}$$
 
 ## Running Student Body Elections
 
-1. Edit the time parameters $\textit{seopens}$ and $\textit{secloses}$ in the $.CONFIG$ to ensure that the SB elections is open and closed at the right times. These parameters are determined by the Senate.
+1. Edit the time parameters $\textit{seopens}$ and $\textit{secloses}$ in the $\config$ to ensure that the SB elections is open and closed at the right times. These parameters are determined by the Senate.
 
-2. Change the $\textit{secampaign}$ entry in the $.CONFIG$ file to reflect the current senate election ID. Recall that it must follow the form:
+2. Change the $\textit{secampaign}$ entry in the $\config$ file to reflect the current senate election ID. Recall that it must follow the form:
 $$\textit{se-[semester]-SHA32id}$$
